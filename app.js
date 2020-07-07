@@ -41,6 +41,9 @@ app.get('/produto/:id', (req, res) => {
 
 
 // Exclui um produto específico
-
+app.delete('/produto/:id', (req, res) => {
+    const resp = db.delProduto(req.params.id)
+    res.send(resp)
+})
 
 app.listen(8081, () => console.log('Servidor ativo em http://localhost:8081'))

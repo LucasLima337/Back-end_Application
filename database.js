@@ -34,9 +34,16 @@ const changeProduto = (produto) => {
     return `O Produto ${produto.id} foi alterado com sucesso!`
 }
 
+const delProduto = id => {
+    const produto = bancoDeDados[id]
+    delete bancoDeDados[id]
+    return `O produto ${produto.id} foi excluído com sucesso!`
+}
+
 module.exports = {
     listarProdutos,
     getProduto,
     saveProduto,
-    changeProduto
+    changeProduto,
+    delProduto
 }
