@@ -6,7 +6,7 @@ const contador = {
 const bancoDeDados = {}
 
 const listarProdutos = () => {
-    if (bancoDeDados.length) {
+    if (Object.keys(bancoDeDados).length > 0) {
         return Object.values(bancoDeDados)
     }
     else {
@@ -24,14 +24,19 @@ const getProduto = id => {
 }
 
 const saveProduto = produto => {
-    if (!produto.id) {
-        produto.id = contador.id
-    }
-    
+    produto.id = contador.id
+    bancoDeDados[produto.id] = produto
+    return 'Produto salvo no banco de dados com sucesso!'
+}
+
+const changeProduto = (produto) => {
+    bancoDeDados[produto.id] = produto
+    return `O Produto ${produto.id} foi alterado com sucesso!`
 }
 
 module.exports = {
     listarProdutos,
     getProduto,
-    saveProduto
+    saveProduto,
+    changeProduto
 }
