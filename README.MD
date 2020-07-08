@@ -14,4 +14,5 @@
 * A simulação do banco de dados foi criada a partir de um arquivo contendo um objeto, e nele, são armazenados todos os dados;
 
 **Obs: Foi usado como exemplo, a situação de um controle de estoque;**
+
 **Obs: As requisições podem ser feitas e vistas através do Postman ou Insomnia.**
