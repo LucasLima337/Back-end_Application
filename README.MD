@@ -1,10 +1,17 @@
 # Mini Aplicação Back-end
+### Aplicação Back-end simulando um banco de dados com NodeJS;
 
-* Aplicação Back-end simulando um banco de dados com NodeJS;
-* Utilizando o framework express, foi criada rotas de acesso, permitindo realizar ações por meio de requisições;
-* Dentre essas rotas, é incluido a possibilidade do usuário enviar, listar, alterar e excluir dados conforme o desejado;
+**Framework Utilizado:** _express_
 
-* Foi usado como exemplo, a situação de um controle de estoque;
-* A simulação de um banco de dados seria um arquivo contendo um objeto, e nele, são armazenados todos os dados;
+---
+* Dentre as rotas criadas, está incluido as possibilidades de:
+   1. enviar; 
+   2. listar; 
+   3. alterar; e 
+   4. excluir dados conforme o desejado;
+---
 
-Obs: As requisições podem ser feitas e vistas através do Postman ou Insomnia
+* A simulação do banco de dados foi criada a partir de um arquivo contendo um objeto, e nele, são armazenados todos os dados;
+
+**Obs: Foi usado como exemplo, a situação de um controle de estoque;**
+**Obs: As requisições podem ser feitas e vistas através do Postman ou Insomnia.**
