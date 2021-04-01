@@ -15,4 +15,4 @@
 
 **Obs: It was used as an example the situation of a stock control;**
 
-**Obs: The requests can be done by Postman or Insomnia.**
+**Obs: The requests can be done using Postman or Insomnia.**
