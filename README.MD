@@ -1,18 +1,18 @@
-# Mini Aplicação Back-end
-### Aplicação Back-end simulando um banco de dados com NodeJS;
+# Back-end Application
+### Back-end Application simulating a database with NodeJS;
 
-**Framework Utilizado:** _express_
+**Used Framework:** _express_
 
 ---
-* Dentre as rotas criadas, está incluido as possibilidades de:
-   1. enviar; 
-   2. listar; 
-   3. alterar; e 
-   4. excluir dados conforme o desejado;
+* It was created some routes and their features are in the next lines:
+   1. Add; 
+   2. List; 
+   3. Update; and 
+   4. Delete a data;
 ---
 
-* A simulação do banco de dados foi criada a partir de um arquivo contendo um objeto, e nele, são armazenados todos os dados;
+* The database simulation was created from a file containing an object, and all data are stored in it;
 
-**Obs: Foi usado como exemplo, a situação de um controle de estoque;**
+**Obs: It was used as an example the situation of a stock control;**
 
-**Obs: As requisições podem ser feitas e vistas através do Postman ou Insomnia.**
+**Obs: The requests can be done by Postman or Insomnia.**
